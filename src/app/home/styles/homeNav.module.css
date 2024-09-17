@@ -1,0 +1,27 @@
+/* homeNav.module.css */
+
+/* Styling for the navigation container */
+.nav-container {
+    background-color: #333; /* Dark background color */
+    padding: 10px 20px; /* Padding around the navigation */
+  }
+  
+  /* Styling for the navigation links */
+  .nav-links {
+    display: flex; /* Flexbox layout */
+    gap: 10px; /* Gap between links */
+  }
+  
+  /* Styling for individual navigation links */
+  .nav-link {
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Padding around each link */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  /* Hover state for navigation links */
+  .nav-link:hover {
+    background-color: #555; /* Darken background color on hover */
+    border-radius: 5px; /* Rounded corners */
+  }
